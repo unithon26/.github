@@ -82,14 +82,17 @@ SUBMITTED → GENERATING → PREPARING → AWAITING_ACTIVATION
 2026년 8월 24일부터 26일까지 열린 UNITHON 2026에서 숭실대학교 학생 팀이 기획·개발·디자인을
 함께 맡아 만들었습니다.
 
-| 역할 | 담당 범위 |
-| --- | --- |
-| Product Frontend | 제품 UI, 결정적 랜딩·카드 renderer, PNG·ZIP export, E2E, Vercel |
-| **Backend · AI — 홍성주** | Zod `CampaignSpec`, Anthropic 생성 계약, Supabase 데이터·RLS, API, Postgres lease lifecycle, Meta·Insights 연동 |
-| Product Design | Figma 디자인 시스템, 랜딩·카드 템플릿, 발표 시각 자료 |
+공개 구현 이력과 프로젝트 문서에서 확인되는 책임 범위만 적었습니다. 이름이 공개 Git 이력에서
+확인되지 않는 비개발 기여는 역할로 구분했습니다.
 
-상세 구현과 검증 근거는 공개 저장소의 commit, PR, architecture, ADR, work log에서 확인할 수
-있습니다.
+| 팀원 | 역할 | 맡은 범위와 핵심 성과 |
+| --- | --- | --- |
+| [홍성주](https://github.com/ghdtjdwn) | Backend · AI · Platform | `CampaignSpec`, Anthropic 생성 계약, Supabase schema·RLS, 내부 API와 공개 route 데이터 경계, Meta·Insights, durable lifecycle, Vercel·Oracle 전달과 CI를 구현·통합해 입력부터 실제 광고·리포트까지 연결 · [PR #15](https://github.com/unithon26/marketvalley/pull/15) · [PR #17](https://github.com/unithon26/marketvalley/pull/17) |
+| [박지성](https://github.com/jisung1017) | Product Frontend · UX | Figma 기반 홈·입력·진행·리포트 UI, 결정적 랜딩·카드 renderer, PNG·ZIP export, Google 로그인 진입과 production E2E를 구현 · [PR #1](https://github.com/unithon26/marketvalley/pull/1) · [PR #3](https://github.com/unithon26/marketvalley/pull/3) |
+| Product Design | Visual System · Templates | 디자인 토큰, 랜딩 도입부 7종, 카드뉴스 표지 3종과 상태·발표 화면의 Figma 기준 제공 |
+
+[역할과 파일 소유권](https://github.com/unithon26/marketvalley/blob/main/CONTRIBUTING.md#역할과-파일-소유권)에서
+협업 경계를 확인할 수 있습니다.
 
 <p align="center">
   <a href="https://marketvaley.vercel.app"><strong>marketvalley 직접 사용해 보기 →</strong></a>
