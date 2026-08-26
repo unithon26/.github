@@ -77,11 +77,19 @@ SUBMITTED → GENERATING → PREPARING → AWAITING_ACTIVATION
 | Delivery | Vercel, Oracle Cloud, rootless Docker Compose, Caddy |
 | Quality | Vitest, Playwright, GitHub Actions, Terraform |
 
-## 팀
+## 팀과 역할
 
 2026년 8월 24일부터 26일까지 열린 UNITHON 2026에서 숭실대학교 학생 팀이 기획·개발·디자인을
-함께 맡아 만들었습니다. 역할별 상세 구현과 검증 근거는 공개 저장소의 commit, PR, architecture,
-ADR, work log에서 확인할 수 있습니다.
+함께 맡아 만들었습니다.
+
+| 역할 | 담당 범위 |
+| --- | --- |
+| Product Frontend | 제품 UI, 결정적 랜딩·카드 renderer, PNG·ZIP export, E2E, Vercel |
+| **Backend · AI — 홍성주** | Zod `CampaignSpec`, Anthropic 생성 계약, Supabase 데이터·RLS, API, Postgres lease lifecycle, Meta·Insights 연동 |
+| Product Design | Figma 디자인 시스템, 랜딩·카드 템플릿, 발표 시각 자료 |
+
+상세 구현과 검증 근거는 공개 저장소의 commit, PR, architecture, ADR, work log에서 확인할 수
+있습니다.
 
 <p align="center">
   <a href="https://marketvaley.vercel.app"><strong>marketvalley 직접 사용해 보기 →</strong></a>
