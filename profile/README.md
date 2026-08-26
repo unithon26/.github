@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/marketvalley-cover.svg" width="100%" alt="marketvalley — UNITHON 2026 Manifest 특별상" />
+  <img src="./assets/marketvalley-cover.svg" width="100%" alt="marketvalley — UNITHON 2026 매니패스트 특별상" />
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ Instagram 카드뉴스 5장, 광고 문구와 Meta 광고를 만들고 실제 �
 조판, 파일 정리, 광고 등록, 상태 확인과 데이터 취합을 없애고, 시장성 판단과 고객 대화는 사람에게
 남깁니다.
 
-> UNITHON 2026 Manifest 특별상 수상
+> UNITHON 2026 매니패스트 특별상 공식 수상
 
 ## 우리가 없앤 일
 
