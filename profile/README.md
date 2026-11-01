@@ -1,6 +1,11 @@
 <p align="center">
-  <img src="./assets/marketvalley-cover.svg" width="100%" alt="marketvalley — UNITHON 2026 매니패스트 특별상" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/marketvalley-logo-dark.svg" />
+    <img src="./assets/marketvalley-logo.svg" width="360" alt="market valley" />
+  </picture>
 </p>
+
+<h3 align="center">🏆 UNITHON 2026 매니패스트 특별상</h3>
 
 <p align="center">
   <strong>아이디어는 있는데, 고객이 반응할지는 아직 모를 때.</strong><br />
